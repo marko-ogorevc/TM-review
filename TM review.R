@@ -148,7 +148,7 @@ mesh_terms %>% unique()
           axis.text.x = element_text(vjust = -0.5),
           # axis.text.y = element_blank(),
           
-          # legend.position = "none",
+           legend.position = "none",
           # legend.spacing.x = unit(10, "char"),
           legend.spacing.y = unit(2, "char"),
           legend.key.height = unit(2, "char"),
@@ -163,3 +163,5 @@ mesh_terms %>% unique()
           axis.ticks.y = element_blank()
     )
 )
+
+
